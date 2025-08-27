@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LocalFreshCafe - Order Online</title>
+</head>
+<body>
+    <!-- HEADER -->
+    <header>
+        <h1>Order Online</h1>
+    </header>
+
+    <!-- NAVIGATION -->
+    <nav>
+        <a href="index.html">Homepage</a><br>
+        <a href="menu.html">Menupage</a><br>
+        <a href="order.html">Orderpage</a><br>
+        <a href="about.html">Aboutpage</a><br>
+        <a href="contact.html">Contactpage</a><br>
+    </nav>
+
+     <!-- ORDER -->
+    <main>
+        <h2>Place your Order</h2>
+        <form>
+            <label for="name">Your Name:</label><br>
+            <input type="text" id="name" name="name" required><br><br>
+
+            <label for="food">Select Item:</label><br>
+            <select id="food" name="food">
+                <option>Breakfast Special</option>
+                <option>Vegan Salad Bowl</option>
+                <option>Chicken Wrap</option>
+                <option>Fruit Smoothie</option>
+            </select><br><br>
+
+            <label for="quanity">Quanity:</label><br>
+            <input type="number" id="quanity" name="quanity" min="1" required><br><br>
+
+            <button type="submit">Place Order</button>
+        </form>
+    </main>
+
+    <!-- FOOTER -->
+    <footer>
+        <p>&copy; 2025 LocalFreshCafe | Designed for students</p>
+    </footer>
+    
+</body>
+</html>
